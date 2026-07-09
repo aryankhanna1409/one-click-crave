@@ -1,0 +1,197 @@
+{
+  "McDonald's": {
+    "burgers_wraps": [
+      "McAloo Tikki (No Onion No Garlic)",
+      "McVeggie",
+      "McSpicy Paneer",
+      "Filet‑O‑Fish",
+      "McChicken",
+      "Chicken Maharaja Mac",
+      "Veg Maharaja Mac",
+      "Butter Paneer Grilled Burger",
+      "Butter Chicken Grilled Burger",
+      "Dosa Masala Burger",
+      "McEgg Burger",
+      "Spicy Paneer Wrap",
+      "Spicy Chicken Wrap"
+    ],
+    "sides": [
+      "Fries (Small/Medium/Large)",
+      "Cheesy Fries Mexican",
+      "Masala Wedges",
+      "Cheesy Italian Sticks",
+      "Nuggets (4/6/9/20 pcs)",
+      "Veg Pizza McPuff"
+    ],
+    "desserts": [
+      "McFlurry Oreo",
+      "McFlurry ChocoCrunch",
+      "Sundae (Strawberry / Brownie)",
+      "Soft Serve Cone",
+      "Brownie Hot Fudge",
+      "Chocolate Chip Cookie"
+    ],
+    "drinks": [
+      "Coffee (Hot/Cold)",
+      "Coke / Diet Coke / Sprite / Fanta",
+      "Cold Coffee Float",
+      "Iced Tea",
+      "Chocolate / Vanilla / Strawberry Shake",
+      "Berry Cooler",
+      "Lemon Fizz",
+      "Minute Maid Pulpy Orange",
+      "Peri‑Peri Fries"
+    ]
+  },
+  "Taco Bell": {
+    "mains": [
+      "Cheesy Quesadilla",
+      "Paneer Quesadilla",
+      "Cheesy Lava Taco",
+      "Crunchwrap Supreme",
+      "Veg Mexican Bowl",
+      "Chicken Fajita Burrito",
+      "Veg Soft Taco",
+      "Mexican Pizza"
+    ],
+    "sides": [
+      "Cheesy Seasoned Fries",
+      "Mexican Fries",
+      "Tortilla Chips & Salsa",
+      "Cheese Dip"
+    ],
+    "drinks": [
+      "Hazelnut Coffee Shake",
+      "Chocolate Thickshake",
+      "Classic Cold Coffee",
+      "Virgin Mojito",
+      "Mountain Dew",
+      "Pepsi",
+      "7UP"
+    ]
+  },
+  "Starbucks": {
+    "drinks": [
+      "Iced Vanilla Cold Brew (No Ice)",
+      "Vanilla Sweet Cream Cold Brew",
+      "Cold Brew",
+      "Java Chip Frappuccino",
+      "Double Chocolate Chip Frappuccino",
+      "Caffe Macchiato",
+      "Caffe Mocha",
+      "Flat White",
+      "Americano",
+      "Latte",
+      "Espresso",
+      "Pink Drink",
+      "India Spice Majesty Blend",
+      "Matcha & Espresso Fusion",
+      "Iced Hibiscus & Passion Lemonade",
+      "Black Palm Jaggery Latte",
+      "Churro Frappuccino",
+      "Churro Latte",
+      "Iced Churro Latte"
+    ],
+    "sizes": ["Short", "Tall", "Grande", "Venti"],
+    "food": [
+      "Butter Croissant",
+      "Chicken Salad Sandwich",
+      "Tandoori Paneer Roll",
+      "Chocolate Rossomalai Mousse",
+      "Malai Chom Chom Tiramisu",
+      "Elaichi Mewa Croissant",
+      "Murg Tikka Panini",
+      "Green Goodness Spinach Panini",
+      "Bhuna Chicken Puff",
+      "Mushroom Onion Profiterole",
+      "Spinach & Corn Quiche",
+      "Spinach & Feta Puff",
+      "Peppered Mushroom Puff Pie",
+      "Tomato Basil Bruschetta",
+      "Three Cheese Pull Apart",
+      "Brownie Cupcake",
+      "Coffee Cake",
+      "Banana Bread"
+    ]
+  },
+  "Dominos": {
+    "pizzas": [
+      "Margherita (Cheese Burst)",
+      "Farmhouse",
+      "Peppy Paneer",
+      "Veggie Paradise",
+      "Cheese n Corn",
+      "Mexican Green Wave",
+      "Deluxe Veggie",
+      "Chicken Golden Delight",
+      "Pepper Barbecue Chicken"
+    ],
+    "sides": [
+      "Garlic Breadsticks",
+      "Stuffed Garlic Bread",
+      "Taco Mexicana",
+      "Crinkle Fries",
+      "Cheese Dip"
+    ],
+    "drinks": ["Coke", "Pepsi", "Sprite", "Fanta"]
+  },
+  "Kimling": {
+    "mains": [
+      "Manchurian Gravy",
+      "Veg Fried Rice",
+      "Schezwan Fried Rice",
+      "Hakka Noodles",
+      "Veg Chowmein",
+      "Chili Garlic Noodles",
+      "Kung Pao Veg",
+      "Paneer Chili Dry"
+    ],
+    "sides": [
+      "Honey Chili Potato",
+      "Spring Rolls",
+      "Crispy Veg",
+      "Corn Kernels Fry"
+    ]
+  },
+  "Third Wave Coffee": {
+    "drinks": [
+      "Chocolate Shake",
+      "Cold Coffee",
+      "Cappuccino",
+      "Espresso",
+      "Latte",
+      "Matcha Shake",
+      "Hazelnut Cold Brew",
+      "Iced Americano"
+    ],
+    "bakes": [
+      "Banana Bread",
+      "Chocolate Brownie",
+      "Croissant",
+      "Coffee Cake"
+    ]
+  },
+  "Kiosk Kaffee": {
+    "drinks": [
+      "Iced Matcha Latte",
+      "Devil's Chocolate Shake",
+      "Cold Coffee",
+      "Caramel Coffee",
+      "Iced Mocha"
+    ],
+    "mains": [
+      "Cheese Pasta",
+      "Penne Alfredo",
+      "Veg Lasagna"
+    ]
+  },
+  "Demitasse": {
+    "drinks": [
+      "Cold Coffee",
+      "Espresso",
+      "Mocha",
+      "Hot Chocolate",
+      "Cappuccino"
+    ]
+  }
+}
