@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🍱 One Click Crave
+<img src="assets/banner.svg" width="100%" alt="One Click Crave: A meal picker that learns what you actually eat" />
 
 **"What should I eat today?" answered in one click, tuned to your dietary rules and your order history.**
 
