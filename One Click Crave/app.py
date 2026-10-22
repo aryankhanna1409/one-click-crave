@@ -36,17 +36,29 @@ if st.button("🎲 Generate Combo"):
     else:
         combo = predict_combo_with_ml(restaurant, mode.lower()) or suggest_rule_based_combo(restaurant, prefs)
 
+    # Keep the combo in session state so it survives the rerun triggered by the Confirm button
+    st.session_state["combo"] = combo
+    st.session_state["combo_ctx"] = (mode, restaurant)
+    st.session_state["saved"] = False
+
+combo = st.session_state.get("combo")
+if combo:
+    combo_mode, combo_restaurant = st.session_state["combo_ctx"]
+
     st.success("Here's your combo:")
     for item in combo:
         st.write(f"🍴 {item}")
 
-    if mode == "Order Online":
+    if combo_mode == "Order Online":
         st.markdown("**Quick Search Links:**")
         for item in combo:
-            st.markdown(make_links(restaurant, item), unsafe_allow_html=True)
+            st.markdown(make_links(combo_restaurant, item), unsafe_allow_html=True)
 
     # --- Confirm Button ---
     if st.button("✅ Confirm this meal"):
-        log_order(mode.lower(), restaurant, combo)
+        log_order(combo_mode.lower(), combo_restaurant, combo)
+        st.session_state["saved"] = True
+
+    if st.session_state.get("saved"):
         st.success("Saved to history. I’ll remember this for next time!")
 

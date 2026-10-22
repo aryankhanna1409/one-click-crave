@@ -12,6 +12,16 @@
 
 ---
 
+<div align="center">
+
+![One Click Crave demo](assets/demo.gif)
+
+<sub>Recorded from a local run of the Streamlit app.</sub>
+
+</div>
+
+---
+
 ## ✨ Features
 
 | | |
@@ -43,7 +53,7 @@ streamlit run app.py
 
 | File | Role |
 |---|---|
-| `app.py` | Streamlit interface (shown in the browser as **MealMuse**) |
+| `app.py` | Streamlit interface (the browser tab is titled **MealMuse**) |
 | `combo_generator.py` | Rule-based combos, the ML prediction and order logging |
 | `swiggy_linker.py` | Builds the search links for online ordering |
 | `menu_data.json` | Restaurants and their menus by category |
