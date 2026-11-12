@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="One Click Crave: an AI meal assistant, shaped by six months of testing with blind, deaf and elderly users" />
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg" /><img src="assets/banner.svg" width="100%" alt="One Click Crave: an AI meal assistant, shaped by six months of testing with blind, deaf and elderly users" /></picture>
 
 **"What should I eat today?" answered in one click, and built so that people who can't easily read a menu can use it too.**
 
@@ -17,6 +17,14 @@
 
 **[one-click-crave.base44.app](https://one-click-crave.base44.app/)**
 
+<div align="center">
+
+<a href="https://one-click-crave.base44.app/"><img src="assets/app-demo.gif" width="100%" alt="Walkthrough of the live app: home, order for delivery, a suggested order with prices, dining out, live rankings, the food concierge and dietary preferences" /></a>
+
+<sub>Screens captured from the live app: home, delivery, a suggested order, dining out, live rankings, the concierge and dietary preferences.</sub>
+
+</div>
+
 This is the current version of One Click Crave, rebuilt from the ground up on Base44. It does three things:
 
 | | |
@@ -25,7 +33,7 @@ This is the current version of One Click Crave, rebuilt from the ground up on Ba
 | **Decide for dining out** | It builds a personalised combo you can show your waiter |
 | **Ask the concierge** | Chat with the AI for a recommendation that fits what you feel like |
 
-Alongside those sit a rankings screen, the chat itself and a preferences screen where you set what you do and don't eat.
+Alongside those sit live rankings that score each restaurant on quality, value and speed, a read-aloud button on suggestions and summaries, and a preferences screen for vegetarian, non-vegetarian, vegan and Jain diets.
 
 ---
 
@@ -98,7 +106,7 @@ streamlit run app.py
 
 <div align="center">
 
-<img src="assets/footer.svg" width="100%" alt="Off the menu: from the archive" />
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" /><img src="assets/footer.svg" width="100%" alt="Off the menu: from the archive" /></picture>
 
 Because choosing is the hardest part of dinner
 
